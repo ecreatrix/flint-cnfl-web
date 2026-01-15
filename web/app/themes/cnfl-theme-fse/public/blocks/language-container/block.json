@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wa/language-container",
+  "title": "Lang Container",
+  "icon": "translation",
+  "category": "layout",
+  "attributes": {
+    "language": {
+      "type": "string",
+      "default": "en"
+    }
+  },
+  "editorScript": "file:./index.js"
+}

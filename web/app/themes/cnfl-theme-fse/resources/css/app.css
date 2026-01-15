@@ -1,0 +1,32 @@
+@import "./modules/theme-var";
+
+/* Import Web Awesome Pro Core Styles */
+@import "@awesome.me/webawesome/dist/styles/webawesome.css";
+@import "@awesome.me/webawesome/dist/styles/themes/default.css";
+
+/* Import Font Awesome Pro */
+@import "@fortawesome/fontawesome-pro/css/all.css";
+
+@import './modules/generic.css';
+
+/* Gutenberg blocks */
+/* @import '../blocks/core-button/app.css';*/
+/*@import '../blocks/language-container/app.css';*/
+/*@import '../blocks/language-selector/app.css';*/
+@import '../blocks/copyright-date-block/app.css';
+@import '../blocks/page-link-image/app.css';
+
+@source "../views/";
+@source "../../app/";
+
+@theme {
+  --primary: #fff;
+}
+
+.current-menu-item {
+  border-bottom: 1px solid;
+}
+
+/* body {
+  background: red;
+}*/

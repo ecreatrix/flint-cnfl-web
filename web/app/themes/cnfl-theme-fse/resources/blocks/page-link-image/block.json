@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wa/image-link-tile",
+  "title": "Image Link Tile",
+  "category": "design",
+  "icon": "format-image",
+  "attributes": {
+    "mediaId": { "type": "number" },
+    "mediaUrl": { "type": "string" },
+    "linkUrl": { "type": "string", "default": "" },
+    "titleAlignment": { "type": "string", "default": "left" }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./app.css"
+}

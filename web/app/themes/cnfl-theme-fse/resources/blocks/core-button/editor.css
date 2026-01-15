@@ -1,0 +1,25 @@
+/* Remove default WP styles only within the editor preview */
+.wp-block-button__link {
+  background: transparent !important;
+  color: inherit !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+/* Ensure the wrapper doesn't add extra spacing */
+.wp-block-button {
+  margin: 0;
+}
+
+.wp-block-button.button {
+    /* Copy or extend your wa-button styles here */
+    display: inline-flex;
+    appearance: none;
+    align-items: center;
+    justify-content: center;
+    color: green;
+}

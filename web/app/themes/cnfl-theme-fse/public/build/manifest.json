@@ -1,0 +1,80 @@
+{
+  "_chunk.EWOCEY36-BC0U-VXg.js": {
+    "file": "assets/chunk.EWOCEY36-BC0U-VXg.js",
+    "name": "chunk.EWOCEY36"
+  },
+  "editor.deps.json": {
+    "file": "assets/editor.deps-Cp32gp87.json",
+    "src": "editor.deps.json"
+  },
+  "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-DXx3Sb0s.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-duotone-900.woff2": {
+    "file": "assets/fa-duotone-900-CJ6MPTxJ.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-duotone-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-light-300.woff2": {
+    "file": "assets/fa-light-300-BGfHxP3n.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-light-300.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-D8jujv2i.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-Dqg1dql0.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-thin-100.woff2": {
+    "file": "assets/fa-thin-100-wOdD_pwi.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-thin-100.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-dplyB2sz.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-v4compatibility.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-style-CuDHO22Y.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/editor.css": {
+    "file": "assets/editor-style-CGXgo0Bt.css",
+    "src": "resources/css/editor.css",
+    "isEntry": true
+  },
+  "resources/images/leswyn_with_CNFL_logos_less_parking_lot.webp": {
+    "file": "assets/leswyn_with_CNFL_logos_less_parking_lot-DgpEM41g.webp",
+    "src": "resources/images/leswyn_with_CNFL_logos_less_parking_lot.webp"
+  },
+  "resources/images/logo.webp": {
+    "file": "assets/logo-CsJhs74o.webp",
+    "src": "resources/images/logo.webp"
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-CV464KuY.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk.EWOCEY36-BC0U-VXg.js"
+    ]
+  },
+  "resources/js/editor.jsx": {
+    "file": "assets/editor-C6jOLlWg.js",
+    "name": "editor",
+    "src": "resources/js/editor.jsx",
+    "isEntry": true
+  },
+  "resources/js/modules/iframe.jsx": {
+    "file": "assets/iframe-QDozyz-p.js",
+    "name": "iframe",
+    "src": "resources/js/modules/iframe.jsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk.EWOCEY36-BC0U-VXg.js"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+:root {
+  --background: oklch(1 0 0);
+	--color-*: initial;
+	--color-black: #000;
+	--color-white: #fff;
+	--color-neutral-50: oklch(0.985 0 0);
+	--color-neutral-100: oklch(0.97 0 0);
+	--color-neutral-200: oklch(0.922 0 0);
+	--color-neutral-300: oklch(0.87 0 0);
+	--color-neutral-400: oklch(0.708 0 0);
+	--color-neutral-500: oklch(0.556 0 0);
+	--color-neutral-600: oklch(0.439 0 0);
+	--color-neutral-700: oklch(0.371 0 0);
+	--color-neutral-800: oklch(0.269 0 0);
+	--color-neutral-900: oklch(0.205 0 0);
+	--color-neutral-950: oklch(0.145 0 0);
+	--color-primary: #AD2225;
+
+	--font-body: "Helvetica, Arial, sans-serif";
+
+	--login-bg: url("../../images/leswyn_with_CNFL_logos_less_parking_lot.webp");
+	--login-logo: url("../../images/logo.webp");
+}
