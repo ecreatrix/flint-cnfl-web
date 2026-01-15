@@ -75,6 +75,30 @@ add_filter( 'the_title', function ( $title, $id = null ) {
 }, 10, 2 );
 
 /**
+ * Filters the document title parts to customize the browser tab text.
+ *
+ * @param array $title_parts {
+ * The parts of the title.
+ * @type string $title   Default title of the page.
+ * @type string $page    Optional. Page number if paginated.
+ * @type string $tagline Optional. Site tagline if on the home page.
+ * @type string $site    Optional. Site name.
+ * }
+ * @return array Modified title parts.
+ */
+add_filter( 'document_title_parts', function ( $title_parts ) {
+    // Example: Change the separator or prefix the title
+    if ( fr_lang_selected() ) {
+        // Look for a French title in post meta
+        $fr_title = get_post_meta( get_the_ID(), 'fr_title', true );
+
+        $title_parts['title'] = $fr_title;
+    }
+
+    return $title_parts;
+} );
+
+/**
  * Persist ?lang in the Home URL
  */
 add_filter( 'Xhome_url', function ( $url ) {

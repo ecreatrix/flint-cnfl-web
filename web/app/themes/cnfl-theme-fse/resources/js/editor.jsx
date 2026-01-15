@@ -11,5 +11,5 @@ import '../blocks/copyright-date-block/index.jsx';
 import '../blocks/page-link-image/index.jsx';
 
 domReady(() => {
-  
+  //console.log('editor')
 });

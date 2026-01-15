@@ -101,11 +101,12 @@ if (  ! class_exists( Assets::class ) ) {
                 ] )->toHtml();
             } else {
                 $entry_points[$handle] = [
-                    'filename'     => $src,
-                    'dependencies' => $dependencies,
-                    'add_module'   => true,
+                    'filename'   => $src,
+                    //'dependencies' => $dependencies,
+                    'add_module' => true,
                 ];
             }
+            //var_dump( $entry_points );
 
             $src                   = 'resources/js/modules/iframe.jsx';
             $handle                = 'waIframe';

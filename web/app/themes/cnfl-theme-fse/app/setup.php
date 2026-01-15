@@ -25,7 +25,6 @@ add_action( 'after_setup_theme', function () {
  * Register the theme assets and localization.
  */
 add_action( 'after_setup_theme', function () {
-    // Change 'wa' to 'wa'
     load_theme_textdomain( 'wa', get_template_directory() . '/resources/lang' );
 }, 20 );
 

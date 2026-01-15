@@ -142,6 +142,7 @@ add_action( 'wp_loaded', function () {
     //unregister_block_style( 'core/paragraph', 'subtitle' );
     // A high priority (100) ensures this runs after the style is registered
 }, 100 );
+
 add_filter( 'register_block_type_args', function ( $args, $name ) {
     if ( 'core/paragraph' === $name ) {
         // This removes variations like 'stretchy-paragraph'
@@ -151,6 +152,7 @@ add_filter( 'register_block_type_args', function ( $args, $name ) {
     }
     return $args;
 }, 20, 2 );
+
 /**
  * Register the editor styles.
  *

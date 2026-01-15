@@ -4,7 +4,7 @@
     "name": "chunk.EWOCEY36"
   },
   "editor.deps.json": {
-    "file": "assets/editor.deps-Cp32gp87.json",
+    "file": "assets/editor.deps-BAlDeqT1.json",
     "src": "editor.deps.json"
   },
   "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-brands-400.woff2": {
@@ -36,12 +36,12 @@
     "src": "node_modules/@fortawesome/fontawesome-pro/webfonts/fa-v4compatibility.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-style-CuDHO22Y.css",
+    "file": "assets/app-style-DxExtIZo.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/css/editor.css": {
-    "file": "assets/editor-style-CGXgo0Bt.css",
+    "file": "assets/editor-style-BckcbBys.css",
     "src": "resources/css/editor.css",
     "isEntry": true
   },
