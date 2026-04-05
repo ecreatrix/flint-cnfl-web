@@ -38,7 +38,8 @@
     "wp-plugin/jetpack": "^15.6",
     "wp-plugin/wp-smushit": "^3.24",
     "wp-plugin/wordpress-seo": "^27.3",
-    "wp-plugin/google-analytics-for-wordpress": "^10.1"
+    "wp-plugin/google-analytics-for-wordpress": "^10.1",
+    "wp-plugin/worker": "^4.9"
   },
   "require-dev": {
     "laravel/pint": "^1.18"

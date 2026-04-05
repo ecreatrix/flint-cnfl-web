@@ -1,0 +1,103 @@
+img, svg, picture, video {
+	max-width: 100%;
+	height: auto;
+
+	border-radius: 0;
+}
+
+.hide {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 ,
+.wp-block-heading h1, 
+.wp-block-heading h2, 
+.wp-block-heading h3 {
+	/* font-size: inherit;
+	line-height: inherit;*/
+}
+
+/* Ensure the border is exactly 1px and overrides default block styles */
+.wp-block-separator {
+	&.is-style-thin-border {
+    border: none;
+    border-top: 1px solid currentColor;
+    opacity: 1; /* Ensures visibility if the default theme lowers opacity */
+    height: 0;
+	}
+
+	/* Handle the 'Wide' and 'Dots' variations if they are also set to Thin */
+	&.is-style-thin-border.is-style-wide,
+	&.is-style-thin-border.is-style-dots {
+    border-bottom: none;
+    border-top-width: 1px;
+	}
+}
+
+.h-parent {
+	height: 100%;
+
+	img {
+		height: inherit;
+	}
+}
+
+/* Target the inner container of the columns block when the style is active */
+.wp-block-columns.is-style-justify-space-between {
+    justify-content: space-between !important;
+}
+
+/* Ensure individual columns don't have forced margins that break the space-between */
+.wp-block-columns.is-style-justify-space-between > .wp-block-column {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.Xwp-block-gallery.is-style-masonry {
+	display: grid !important;
+	grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+	grid-auto-rows: 300px; /* Adjust this to control the height of your rows */
+	gap: 20px;
+	padding: 0;
+	list-style-type: none;
+
+	/* Individual Gallery Item (li) */
+	.wp-block-image {
+		margin: 0 !important;
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	/* Ensure the figure and image fill the grid cell */
+	figure,  img {
+		height: 100% !important;
+		width: 100% !important;
+		object-fit: cover; /* This makes images fill the space like your example */
+	}
+
+	/* --- TILING LOGIC (Matching your image) --- */
+
+	/* The large image on the right (2nd image in the gallery) */
+	.wp-block-image:nth-child(2) {
+		grid-column: 2;
+		grid-row: span 2; /* Makes it tall */
+	}
+
+	/* The first image (top left) */
+	.wp-block-image:nth-child(1) {
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	/* The third image (bottom left - kitchen in your photo) */
+	.wp-block-image:nth-child(3) {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	/* The fourth image (wide bottom bar) */
+	.wp-block-image:nth-child(4) {
+		grid-column: span 2; /* Makes it span across both columns */
+		grid-row: 3;
+	}
+}

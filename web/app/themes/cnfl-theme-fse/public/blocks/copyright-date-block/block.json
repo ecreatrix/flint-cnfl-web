@@ -1,0 +1,76 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wa/copyright-date-block",
+  "version": "0.1.0",
+  "title": "Copyright Date Block",
+  "icon": "calendar",
+  "category": "widgets",
+  "description": "Display your site's copyright date.",
+  "example": {},
+  "keywords": [
+    "wa"
+  ],
+  "allowedBlocks": [
+    "core/paragraph",
+    "core/heading",
+    "core/form-input",
+    "core/form-submit-button",
+    "core/form-submission-notification",
+    "core/group",
+    "core/columns"
+  ],
+  "attributes": {
+    "placeholder": {
+      "type": "string",
+      "default": "All Rights Reserved"
+    },
+    "align": {
+      "type": "string",
+      "default": "full"
+    },
+    "content": {
+      "type": "string",
+      "role": "content"
+    },
+    "showTitleFirst": {
+      "type": "boolean",
+      "default": true
+    },
+    "showTM": {
+      "type": "boolean",
+      "default": true
+    },
+    "showIcon": {
+      "type": "boolean",
+      "default": true
+    },
+    "fallbackCurrentYear": {
+      "type": "string"
+    },
+    "showStartingYear": {
+      "type": "boolean"
+    },
+    "startingYear": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "color": {
+      "background": false,
+      "text": true
+    },
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false,
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "textdomain": "wa",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./app.css"
+}

@@ -1,0 +1,47 @@
+.wa-image-link-tile {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    max-height: 640px;
+    overflow: hidden;
+	position: relative;
+    text-decoration: none;
+
+	.label {
+		color: var(--color-white);
+	    font-family: inherit;
+		font-size: var(--wa-font-size-2xl);
+	    margin: 0;
+	    pointer-events: none; /* Allows clicks to go through text to the link */
+		position: absolute;
+		right: 20px;
+	    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+		top: 10px;
+	    z-index: 10;
+	}
+
+	&.alignment-left .label {
+		left: 20px;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	/* On Hover: Fade the image out to show the black background underneath */
+	.tile-overlay {
+		background: var(--color-black);
+		height: 100%;
+		left: 0;
+		position: absolute;
+	    opacity: 0.0;
+	    top: 0;
+	    transform: scale(1.03); /* Optional subtle zoom */
+	    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+	    width: 100%;
+	}
+	
+	&:hover .tile-overlay {
+	    opacity: 0.5; /* This creates the darkening effect */
+	}
+}
