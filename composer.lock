@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ad2f877ed20cd9450d6726ccfa44051",
+    "content-hash": "ed5f74a583c43537ee44fc41ee5e548b",
     "packages": [
         {
             "name": "composer/installers",
@@ -1015,22 +1015,247 @@
             "time": "2025-04-30T23:37:27+00:00"
         },
         {
-            "name": "wpackagist-theme/twentytwentyfive",
-            "version": "1.3",
+            "name": "wp-plugin/google-analytics-for-wordpress",
+            "version": "10.1.2",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentytwentyfive/",
-                "reference": "1.3"
+                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "reference": "tags/10.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwentyfive.1.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.10.1.2.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "chriscct7"
+                }
+            ],
+            "description": "The best free Google Analytics plugin for WordPress. See how visitors find and use your website so you can grow your business with powerful analytics.",
+            "homepage": "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/google-analytics-for-wordpress/#developers",
+                "issues": "https://wordpress.org/support/plugin/google-analytics-for-wordpress",
+                "source": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress"
+            },
+            "time": "2026-03-31T15:15:34+00:00"
+        },
+        {
+            "name": "wp-plugin/google-site-kit",
+            "version": "1.175.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-site-kit/",
+                "reference": "tags/1.175.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-site-kit.1.175.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Google"
+                }
+            ],
+            "description": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.",
+            "homepage": "https://sitekit.withgoogle.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/google-site-kit/#developers",
+                "issues": "https://wordpress.org/support/plugin/google-site-kit",
+                "source": "https://plugins.svn.wordpress.org/google-site-kit"
+            },
+            "time": "2026-03-23T21:45:48+00:00"
+        },
+        {
+            "name": "wp-plugin/jetpack",
+            "version": "15.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/15.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.15.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Automattic"
+                }
+            ],
+            "description": "Improve your WP security with powerful one-click tools like backup, WAF, and malware scan. Includes free tools like stats, CDN and social sharing.",
+            "homepage": "https://jetpack.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/jetpack/#developers",
+                "issues": "https://wordpress.org/support/plugin/jetpack",
+                "source": "https://plugins.svn.wordpress.org/jetpack"
+            },
+            "time": "2026-03-30T17:06:17+00:00"
+        },
+        {
+            "name": "wp-plugin/svg-support",
+            "version": "2.5.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/svg-support/",
+                "reference": "tags/2.5.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/svg-support.2.5.14.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Benbodhi"
+                }
+            ],
+            "description": "Securely upload SVG files to your media library, with built-in sanitization and advanced features for styling and animation.",
+            "homepage": "http://wordpress.org/plugins/svg-support/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/svg-support/#developers",
+                "issues": "https://wordpress.org/support/plugin/svg-support",
+                "source": "https://plugins.svn.wordpress.org/svg-support"
+            },
+            "time": "2026-03-23T19:23:21+00:00"
+        },
+        {
+            "name": "wp-plugin/wordpress-seo",
+            "version": "27.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/27.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.27.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Yoast"
+                }
+            ],
+            "description": "Improve your SEO with real-time feedback, schema, and clear guidance. Upgrade for AI tools, Google Docs integration, and 24/7 support, no hidden fees.",
+            "homepage": "https://yoa.st/1uj",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/wordpress-seo/#developers",
+                "issues": "https://wordpress.org/support/plugin/wordpress-seo",
+                "source": "https://plugins.svn.wordpress.org/wordpress-seo"
+            },
+            "time": "2026-03-31T11:45:46+00:00"
+        },
+        {
+            "name": "wp-plugin/wp-mail-smtp",
+            "version": "4.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "tags/4.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.4.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Syed Balkhi"
+                }
+            ],
+            "description": "Make email delivery easy for WordPress. Connect with SMTP, Gmail, Outlook, SendGrid, Mailgun, SES, Zoho, + more. Rated #1 WordPress SMTP Email plugin.",
+            "homepage": "https://wpmailsmtp.com/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/wp-mail-smtp/#developers",
+                "issues": "https://wordpress.org/support/plugin/wp-mail-smtp",
+                "source": "https://plugins.svn.wordpress.org/wp-mail-smtp"
+            },
+            "time": "2026-03-23T19:23:21+00:00"
+        },
+        {
+            "name": "wp-plugin/wp-smushit",
+            "version": "3.24.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-smushit/",
+                "reference": "tags/3.24.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-smushit.3.24.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "WPMU DEV - Your All-in-One WordPress Platform"
+                }
+            ],
+            "description": "Compress and optimize images, enable lazy load, serve WebP & AVIF, and speed up your site with a global image CDN.",
+            "homepage": "https://wpmudev.com/project/wp-smush-pro/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/wp-smushit/#developers",
+                "issues": "https://wordpress.org/support/plugin/wp-smushit",
+                "source": "https://plugins.svn.wordpress.org/wp-smushit"
+            },
+            "time": "2026-04-01T19:25:49+00:00"
+        },
+        {
+            "name": "wp-theme/twentytwentyfive",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/twentytwentyfive/",
+                "reference": "1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentytwentyfive.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/twentytwentyfive/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "description": "Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.",
+            "homepage": "https://wordpress.org/themes/twentytwentyfive/",
+            "support": {
+                "changelog": "https://wordpress.org/themes/twentytwentyfive/#developers",
+                "issues": "https://wordpress.org/support/theme/twentytwentyfive",
+                "source": "https://themes.svn.wordpress.org/twentytwentyfive"
+            },
+            "time": "2026-03-23T19:23:21+00:00"
         }
     ],
     "packages-dev": [

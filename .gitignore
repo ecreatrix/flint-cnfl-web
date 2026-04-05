@@ -2,7 +2,8 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
-web/app/themes/twentytwentyfive/
+web/app/themes/twentytwenty*/
+web/app/themes/*-dev
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
@@ -22,9 +23,8 @@ web/.htaccess
 
 # Composer
 /vendor
-auth.json
 
 # WP-CLI
 wp-cli.local.yml
-cnfl-theme-dev
-pint
+
+*.sql
