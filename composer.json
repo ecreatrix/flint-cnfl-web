@@ -7,8 +7,7 @@
   "authors": [
     {
       "name": "Alyx Calder",
-      "email": "hello@withalyx.ca",
-      "homepage": "https://withalyx.ca"
+      "email": "2737140+ecreatrix@users.noreply.github.com"
     }
   ],
   "repositories": [
@@ -32,14 +31,14 @@
     "roots/wordpress": "6.9",
     "roots/wp-config": "1.0.0",
     "wp-theme/twentytwentyfive": "^1.0",
-    "wp-plugin/google-site-kit": "^1.175",
-    "wp-plugin/svg-support": "^2.5",
-    "wp-plugin/wp-mail-smtp": "^4.7",
-    "wp-plugin/jetpack": "^15.6",
-    "wp-plugin/wp-smushit": "^3.24",
-    "wp-plugin/wordpress-seo": "^27.3",
-    "wp-plugin/google-analytics-for-wordpress": "^10.1",
-    "wp-plugin/worker": "^4.9"
+    "wp-plugin/google-site-kit": "*",
+    "wp-plugin/svg-support": "*",
+    "wp-plugin/wp-mail-smtp": "*",
+    "wp-plugin/jetpack": "*",
+    "wp-plugin/wp-smushit": "*",
+    "wp-plugin/seo-by-rank-math": "*",
+    "wp-plugin/google-analytics-for-wordpress": "*",
+    "wp-plugin/worker": "*"
   },
   "require-dev": {
     "laravel/pint": "^1.18"

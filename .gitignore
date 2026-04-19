@@ -4,6 +4,7 @@ web/app/plugins/*
 web/app/mu-plugins/*/
 web/app/themes/twentytwenty*/
 web/app/themes/*-dev
+web/app/themes/*/vendor
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
@@ -23,6 +24,12 @@ web/.htaccess
 
 # Composer
 /vendor
+auth.json
+
+# PHPUnit/Pest
+phpunit.xml
+.phpunit.result.cache
+.phpunit.cache
 
 # WP-CLI
 wp-cli.local.yml
